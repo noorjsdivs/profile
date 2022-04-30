@@ -1,0 +1,84 @@
+.finishProjectsContainer {
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+.finishProjectsContainer .title {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+.finishProjectsContainer .projectCards {
+  width: 100%;
+  height: 930px;
+  display: flex;
+  flex-direction: column;
+}
+.projectCards .firstRow {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  gap: 30px;
+  margin-bottom: 60px;
+}
+.firstRow .productBox {
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-info-light);
+  border-radius: 5px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 30px;
+  box-shadow: var(--box-shadow);
+  transition: all ease-in-out 0.5s;
+}
+.firstRow .productBox:hover {
+  box-shadow: none;
+}
+.productBox .desone {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+.productBox .desone img {
+  width: 250px;
+  height: 120px;
+  margin: 0 auto;
+}
+.productBox button {
+  align-items: center;
+}
+.productBox p {
+  font-size: 15px;
+  color: black;
+  font-weight: 500;
+  text-align: center;
+}
+.desone .loginRes {
+  width: 120%;
+}
+.projectCards .secondRow {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  gap: 30px;
+  margin-bottom: 100px;
+}
+.secondRow .productBox {
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-info-light);
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
+  transition: all ease-in-out 0.5s;
+}
+.secondRow .productBox:hover {
+  box-shadow: none;
+}

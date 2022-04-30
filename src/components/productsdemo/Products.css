@@ -1,0 +1,116 @@
+.products_container {
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.products_container .product {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.startup {
+  margin-bottom: 40px;
+  text-decoration: underline;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.product__info {
+  width: 400px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: white;
+  padding: 0px 20px;
+  margin: 0px 10px 20px 10px;
+  position: relative;
+  box-shadow: var(--box-shadow);
+  transition: all ease-in-out 0.3s;
+}
+.product__info:hover {
+  box-shadow: none;
+}
+.product__info img {
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  margin-top: -210px;
+}
+.product__info .product__id {
+  position: absolute;
+  width: 45px;
+  height: 25px;
+  background: var(--color-dark);
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 15px;
+  top: 20px;
+  transition: all ease-in-out 0.5s;
+}
+.product__info .product__id:hover {
+  background: var(--color-danger);
+}
+.product__info .product__category {
+  position: absolute;
+  right: 20px;
+  text-align: center;
+  color: var(--color-primary-variant);
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 80px;
+}
+.product__info .product__price {
+  position: absolute;
+  width: 70px;
+  height: 25px;
+  background: var(--color-dark);
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 15px;
+  top: 20px;
+  right: 20px;
+  transition: all ease-in-out 0.5s;
+}
+.product__info .product__price:hover {
+  background: var(--color-danger);
+}
+.product__info .product__des {
+  /* background: var(--color-dark);  */
+  position: absolute;
+  width: 90%;
+  height: 240px;
+  bottom: 20px;
+  overflow: hidden;
+}
+
+.product__des .product__title {
+  font-size: 16px;
+  margin-top: 40px;
+  color: black;
+}
+.product__des .product__description {
+  position: absolute;
+  font-size: 14px;
+  margin-top: 10px;
+  color: rgba(0, 0, 0, 0.6);
+  overflow: scroll;
+  height: 160px;
+  cursor: pointer;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.product__info .product__rating {
+  display: flex;
+  position: absolute;
+  top: 0;
+}

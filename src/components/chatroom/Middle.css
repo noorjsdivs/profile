@@ -1,0 +1,128 @@
+/*======================= Image Modal start here =======================*/
+.middlePart .imageModal {
+  width: 500px;
+  height: 150px;
+  background: var(--color-info-dark);
+  position: absolute;
+  left: 100px;
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
+  transition: all ease-in-out 0.5s;
+  display: none;
+}
+.middlePart .imageModal:hover {
+  box-shadow: none;
+}
+.imageModal span {
+  position: absolute;
+  color: red;
+  background: rgba(255, 255, 255, 0.5);
+  font-weight: 700;
+  right: 5px;
+  top: 5px;
+  transition: all ease-in-out 0.2s;
+}
+.imageModal span:hover {
+  background: white;
+  cursor: pointer;
+}
+.imageModal input {
+  width: 80%;
+  background: var(--color-white);
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.imageModal .imageModalDesign {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.imageModal button {
+  width: 70px;
+  padding: 10px 8px;
+  text-align: center;
+  margin-top: 15px;
+}
+/*======================= Image Modal end here =======================*/
+/*======================= Select Others start here =======================*/
+
+.middlePart .selectOthers {
+  position: absolute;
+  background: var(--color-info-light);
+  width: 150px;
+  border-radius: 5px;
+  bottom: 75px;
+  right: 5px;
+  padding: 20px 10px;
+  display: none;
+}
+.selectOthers span {
+  position: absolute;
+  color: rgba(255, 0, 0, 0.6);
+  right: 2px;
+  top: 0;
+  transition: all ease-in-out 0.2;
+}
+.selectOthers span:hover {
+  color: red;
+  cursor: pointer;
+}
+.selectOthers li {
+  font-size: 16px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.6);
+  color: black;
+  margin-bottom: 7px;
+  transition: all ease-in-out 0.1s;
+}
+.selectOthers li:last-child {
+  margin-bottom: 0;
+}
+.selectOthers li:hover {
+  background: white;
+  cursor: pointer;
+}
+/*======================= Select Others end here =======================*/
+/*======================= Send Messages start here =======================*/
+
+.textArea {
+  width: 100%;
+  height: 70px;
+  position: absolute;
+  bottom: 0;
+}
+.textArea .textAreaiconsPosition {
+  position: absolute;
+  display: flex;
+  gap: 5px;
+  right: 10px;
+}
+.textArea input {
+  background: var(--color-primary-variant);
+  color: white;
+  height: 40px;
+}
+.textArea span {
+  color: var(--color-primary-variant);
+  background: rgba(255, 255, 255, 0.6);
+
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  font-size: 27px;
+  text-align: center;
+  transition: all ease-in-out 0.5s;
+}
+.textArea span:hover {
+  background: white;
+  cursor: pointer;
+}
+.textArea input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+/*======================= Send Messages end here =======================*/
+/* ======================================================================= 
+                          MiddlePart end here  
+======================================================================== */

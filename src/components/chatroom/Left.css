@@ -1,0 +1,109 @@
+.userTitle {
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-decoration: underline;
+  color: black;
+}
+.userInfo {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.6);
+  line-height: 1;
+  width: 100%;
+}
+.userInfo h6 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-items: center;
+}
+.profileImage {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  box-shadow: 0px 14px 5px 4px rgba(0, 0, 0, 0.75);
+  transition: all ease-in-out 0.4s;
+}
+.profileImage:hover {
+  box-shadow: none;
+}
+.profileImage .icons {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 5px;
+}
+.icons span {
+  width: 44px;
+  height: 44px;
+  font-size: 30px;
+  color: rgba(255, 255, 255, 0.6);
+  background: rgba(0, 0, 0, 0.4);
+  align-items: center;
+  text-align: center;
+  padding: 6px 7px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all ease-in-out 0.4s;
+}
+.icons span:hover {
+  color: white;
+}
+.userInfo img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.userInfo .info {
+  color: white;
+  font-size: 15px;
+  width: 250px;
+  background: var(--color-primary-variant);
+  padding: 5px;
+  border-radius: 5px;
+}
+.membersinfo {
+  height: 380px;
+  width: 100%;
+  background: white;
+  margin-top: 20px;
+}
+.membersinfo h6 {
+  text-align: center;
+  text-decoration: underline;
+}
+.membersinfo h4 {
+  background: var(--color-info-light);
+  padding: 5px 5px;
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  transform: scaleX(1);
+  transition: all ease-in-out 0.4s;
+}
+.membersinfo h4:hover {
+  transform: scaleX(1);
+}
+.membersinfo h4 span {
+  color: rgba(0, 0, 0, 0.6);
+  transition: all ease-in-out 0.2s;
+}
+.membersinfo h4 span:hover {
+  color: black;
+  cursor: pointer;
+}
+.buttons {
+  position: absolute;
+  bottom: 20px;
+  left: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}

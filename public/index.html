@@ -2,9 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" href="profile_Picture.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+      rel="stylesheet"
+    />
     <meta
       name="description"
       content="Web site created using create-react-app"
@@ -24,11 +28,51 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>Chat_Me</title>
+
+    <!-- ====================Stying component start here==========================  -->
+    <style>
+      #test {
+        position: relative;
+        width: 100vw;
+      }
+      #test h3 {
+        font-size: 18px;
+        text-align: center;
+        position: absolute;
+        width: 400px;
+        background: black;
+        color: white;
+        padding: 10px 10px;
+        left: 50%;
+        top: 10px;
+        transform: translate(-50%);
+        transition: all ease-in-out 0.2s;
+
+        /* fadingout effect */
+        animation: fadeOut ease 15s;
+      }
+
+      @keyframes fadeOut {
+        0% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 0;
+        }
+      }
+      #test h3:hover {
+        letter-spacing: 1px;
+      }
+    </style>
+    <!-- ====================Stying component end here==========================  -->
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    <div id="test" style="position: relative; width: 100vw">
+      <h3 class="quotes">This text is coming from Public.html!</h3>
+    </div>
+    <div id="noor"></div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -40,4 +84,14 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+  <!-- ====================JavaScript component start here==========================  -->
+
+  <script>
+    setTimeout(function () {
+      document.getElementById("test").style.display = "none";
+      document.getElementById("test").style.transition =
+        "opacity 250ms ease out" + 3 + "s";
+    }, 15000);
+  </script>
+  <!-- ====================JavaScript component end here==========================  -->
 </html>
