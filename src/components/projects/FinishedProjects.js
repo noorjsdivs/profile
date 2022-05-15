@@ -81,7 +81,7 @@ function FinishedProjects() {
                   </p>
                 </div>
                 <a
-                  href="https://unknown2832021.github.io/Sahara_Hospitality_Company/index.html"
+                  href="https://unknown2832021.github.io/Sahara_New_Beginning/"
                   target="_blank"
                 >
                   <button className="loginbtn">Sahara Hospitality__Demo</button>
