@@ -54,7 +54,7 @@ function FinishedProjects() {
                     Recovery.
                   </p>
                 </div>
-                <a href="https://noormohammad.netlify.app/" target="_blank">
+                <a href="https://www.noormohmmad.com/" target="_blank">
                   <button className="loginbtn">Amazon_Clone-page</button>
                 </a>
               </div>
